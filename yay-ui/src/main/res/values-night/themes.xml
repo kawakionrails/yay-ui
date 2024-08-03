@@ -14,6 +14,15 @@
         <item name="android:padding">32dp</item>
     </style>
 
+    <style name="CustomView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomView.Button">
+        <item name="android:background">@drawable/rounded_dark_gray_background</item>
+    </style>
+
     <style name="Text">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>

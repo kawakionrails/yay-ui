@@ -4,14 +4,23 @@
     <style name="Activity">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:background">@color/gray</item>
+        <item name="android:background">@color/light_gray</item>
     </style>
 
     <style name="Fragment">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:background">@color/gray</item>
+        <item name="android:background">@color/light_gray</item>
         <item name="android:padding">32dp</item>
+    </style>
+
+    <style name="CustomView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomView.Button">
+        <item name="android:background">@drawable/rounded_white_background</item>
     </style>
 
     <style name="Text">

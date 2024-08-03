@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="accent">#FF1285ED</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="gray">#FFF3F2F7</color>
+    <color name="light_gray">#FFF3F2F7</color>
+    <color name="gray">#FF919193</color>
+    <color name="dark_gray">#FF1C1C1E</color>
 
 </resources>

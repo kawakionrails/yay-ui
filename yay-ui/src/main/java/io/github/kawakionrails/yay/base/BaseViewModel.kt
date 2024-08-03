@@ -1,4 +1,4 @@
-package io.github.kawakionrails.yay.ui.base
+package io.github.kawakionrails.yay.base
 
 import androidx.lifecycle.ViewModel
 

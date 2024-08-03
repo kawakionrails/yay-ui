@@ -1,4 +1,4 @@
-package io.github.kawakionrails.yay.ui.base
+package io.github.kawakionrails.yay.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
