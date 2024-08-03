@@ -52,4 +52,10 @@
         <item name="android:background">@drawable/rounded_black_background</item>
     </style>
 
+    <style name="ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
 </resources>
