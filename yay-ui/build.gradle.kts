@@ -44,8 +44,8 @@ dependencies {
 
     // Firebase
     implementation(platform(libs.firebase.bom))
-    implementation(libs.google.firebase.crashlytics)
-    implementation(libs.google.firebase.analytics)
+    implementation(libs.firebase.crashlytics)
+    implementation(libs.firebase.analytics)
 
     // Android
     implementation(libs.androidx.core.ktx)
