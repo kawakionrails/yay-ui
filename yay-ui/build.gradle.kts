@@ -1,11 +1,16 @@
 plugins {
+
+    // Android
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+
+    // Google Services
+    id("com.google.gms.google-services")
 }
 
 android {
     namespace = "io.github.kawakionrails.yay.ui"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 24
@@ -37,6 +42,12 @@ android {
 
 dependencies {
 
+    // Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.google.firebase.crashlytics)
+    implementation(libs.google.firebase.analytics)
+
+    // Android
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
