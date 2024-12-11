@@ -1,11 +1,6 @@
 plugins {
-
-    // Android
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.jetbrainsKotlinAndroid)
-
-    // Google Services
-    id("com.google.gms.google-services")
 }
 
 android {
@@ -42,10 +37,8 @@ android {
 
 dependencies {
 
-    // Firebase
-    implementation(platform(libs.firebase.bom))
-    implementation(libs.firebase.crashlytics)
-    implementation(libs.firebase.analytics)
+    // RoundableLayout
+    implementation(libs.roundablelayout)
 
     // Android
     implementation(libs.androidx.core.ktx)
